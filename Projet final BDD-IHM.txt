@@ -1,0 +1,59 @@
+# Projet final BDD-IHM : critiques de jeux-vidéos :
+
+
+
+## Cahier des charges :
+
+- créer un article pour chaque jeu ;
+  
+  - titre ;
+  
+  - contenu ;
+  
+  - note ;
+  
+  - caractéristiques du jeu (prix etc.) ;
+  
+  - date de création et de dernière modif de l'article ;
+  
+  - plusieurs images du jeu, dont obligatoirement la jaquette ;
+  
+  - avis des internautes, avec la note de l'avis, un texte explicatif, une note, le pseudo de celui qui donne son avis, et la date de publication ;
+  
+  - la moyenne des avis donnés ;
+
+- la page principale doit afficher tous les articles triés par ordre décroissant de date de publication, avec pagination : 5 articles par page ;
+  
+  - recherche par nom de jeu ;
+  
+  - recherche par style de jeu (filtre) ;
+
+- Plusieurs niveaux d'utilisateurs : visiteur, membre, rédacteur, administrateur ;
+
+- membre :
+  
+  - un membre dispose d'un compte avec ses informations : âge (:warning:plus de 15 ans), nom, prénom, mail, photo de profil et pseudo ;
+  
+  - sa page de profil lui permet de voir toutes ses informations mais elles ne doivent apparaître que s'il est connecté ;
+  
+  - S'il est connecté, il peut modifier ses informations sur cette page ;
+  
+  - Sur sa page de profil, il peut voir tous ses avis postés ;
+    
+    - un utilisateur peut donner autant d'avis que de critiques : une par critique ;
+
+- administrateur :
+  
+  - les administrateurs ont toutes les mêmes informations que les membres et les mêmes possibilités qu'eux pour modifier leurs informations, mais avec un petit tag administrateur ;
+  
+  - les administrateurs sont les rédacteurs : ils peuvent rédiger des articles, les modifier, et les supprimer : il faut s'assurer qu'un unique article puisse être rédigé par jeu : si un article est déjà écrit, ils pourront rédiger un avis sous cet article ;
+  
+  - Ils peuvent supprimer n'importe quels avis pour modérer les avis ;
+
+
+
+
+
+
+
+
